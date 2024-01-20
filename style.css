@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #121212;
+}
+
+#calendar {
+    background: #ffffff;
+    margin: 55px;
+    height: 50%;
+}
+
+span#monthAndYear {
+    border-bottom: 1px solid;
+    font-weight: 500;
+    font-size: 30pt;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    margin: 0px 10px 10px 10px;
+}
+
+table thead tr th {
+    border: 1px solid;
+    padding: 20px;
+    text-align: center;
+    font-size: 15pt;
+}
+
+table tbody tr td {
+    border: 1px solid #121212;
+    padding: 20px;
+    text-align: center;
+    font-size: 15pt;
+    color: #121212;
+    cursor: pointer;
+}
+
+.blank-space {
+    background: #cccbcb;
+    cursor: initial;
+}
+
+.cabecalho {
+    background: #363636;
+    color: white;
+}
+
+.today {
+    background: #121212;
+    font-weight: bold;
+    border: 3px solid #007bff;
+    color: #007bff;
+    font-size: 16pt;
+}
+
+.teste {
+    background: #007bff;
+    font-weight: bold;
+    border: 3px solid #121212;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 5px 3px 5px;
+}
+
+#buttons button {
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+    border-radius: 3px;
+    border: 0;
+    background: #121212;
+    color: #007bff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 60px;
+}
+
+div.annotations {
+    border: 1px solid #121212;
+    width: 300px;
+    height: 50%;
+    margin: 20px auto 20px;
+}
+
+span#note-of-day {
+    border-bottom: 1px solid;
+    font-weight: bold;
+    font-size: 16pt;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+textarea {
+    resize: none;
+    width: 80%;
+    height: 70px;
+    font-size: 12pt;
+    margin: 10px 30px 10px 30px;
+}
+
+.btn-save-cancel {
+    display: flex;
+    justify-content: space-between;
+    margin: 3px 25px 3px 25px;
+}
+
+#save {
+    padding: 5px 15px 5px 15px;
+    background: #121212;
+    color: #007bff;
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#cancel {
+    padding: 5px;
+    background: #B22222;
+    color: #121212;
+    font-size: 11pt;
+    border: 0;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.lembrete {
+    background: #FF4500;
+}
+
+.current {
+    background: #cccbcb;
+    color: #121212;
+    border: 3px solid #121212;
+}
+
+#reminder {
+    font-size: 14pt;
+    text-align: center;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#edit {
+    padding: 5px;
+    margin: 10px 3px 10px 20px;
+    background: #121212;
+    color: #007bff;
+    border: 0;
+    border-radius: 3px;
+    font-size: 11pt;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#delete {
+    padding: 5px;
+    margin: 5px 5px 5px 35px;
+    background: #B22222;
+    color: #121212;
+    border: 0;
+    border-radius: 3px;
+    font-size: 11pt;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#close {
+    padding: 5px;
+    margin: 10px 20px 10px 30px;
+    background: #121212;
+    color: #B22222;
+    border: 0;
+    border-radius: 3px;
+    font-size: 11pt;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
